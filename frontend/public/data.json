@@ -1,8 +1,8 @@
 {
-  "last_updated": "2025-12-26T16:16:38.264534",
-  "total_articles": 50,
-  "overall_sentiment": -0.199,
-  "overall_label": "Neutral",
+  "last_updated": "2025-12-26T18:19:58.619009",
+  "total_articles": 46,
+  "overall_sentiment": -0.218,
+  "overall_label": "Negative",
   "daily_stats": [
     {
       "date": "2025-10-31",
@@ -60,12 +60,12 @@
     },
     {
       "date": "2025-12-11",
-      "avg_sentiment": -0.315,
-      "article_count": 3,
+      "avg_sentiment": -0.446,
+      "article_count": 2,
       "positive_count": 0,
       "negative_count": 1,
-      "neutral_count": 2,
-      "moving_avg": -0.149
+      "neutral_count": 1,
+      "moving_avg": -0.168
     },
     {
       "date": "2025-12-12",
@@ -74,7 +74,7 @@
       "positive_count": 0,
       "negative_count": 4,
       "neutral_count": 1,
-      "moving_avg": -0.267
+      "moving_avg": -0.286
     },
     {
       "date": "2025-12-15",
@@ -83,7 +83,7 @@
       "positive_count": 0,
       "negative_count": 1,
       "neutral_count": 2,
-      "moving_avg": -0.341
+      "moving_avg": -0.36
     },
     {
       "date": "2025-12-16",
@@ -92,7 +92,7 @@
       "positive_count": 2,
       "negative_count": 0,
       "neutral_count": 1,
-      "moving_avg": -0.316
+      "moving_avg": -0.334
     },
     {
       "date": "2025-12-18",
@@ -101,7 +101,7 @@
       "positive_count": 0,
       "negative_count": 0,
       "neutral_count": 2,
-      "moving_avg": -0.278
+      "moving_avg": -0.297
     },
     {
       "date": "2025-12-19",
@@ -110,7 +110,7 @@
       "positive_count": 1,
       "negative_count": 0,
       "neutral_count": 0,
-      "moving_avg": -0.186
+      "moving_avg": -0.205
     },
     {
       "date": "2025-12-20",
@@ -119,7 +119,7 @@
       "positive_count": 0,
       "negative_count": 0,
       "neutral_count": 1,
-      "moving_avg": -0.123
+      "moving_avg": -0.142
     },
     {
       "date": "2025-12-22",
@@ -141,30 +141,30 @@
     },
     {
       "date": "2025-12-24",
-      "avg_sentiment": -0.292,
-      "article_count": 7,
+      "avg_sentiment": -0.345,
+      "article_count": 6,
       "positive_count": 1,
       "negative_count": 3,
-      "neutral_count": 3,
-      "moving_avg": -0.059
+      "neutral_count": 2,
+      "moving_avg": -0.067
     },
     {
       "date": "2025-12-25",
-      "avg_sentiment": 0.32,
-      "article_count": 3,
+      "avg_sentiment": 0.418,
+      "article_count": 2,
       "positive_count": 1,
       "negative_count": 0,
-      "neutral_count": 2,
-      "moving_avg": -0.05
+      "neutral_count": 1,
+      "moving_avg": -0.044
     },
     {
       "date": "2025-12-26",
-      "avg_sentiment": -0.103,
-      "article_count": 4,
+      "avg_sentiment": -0.133,
+      "article_count": 3,
       "positive_count": 1,
       "negative_count": 1,
-      "neutral_count": 2,
-      "moving_avg": -0.057
+      "neutral_count": 1,
+      "moving_avg": -0.055
     }
   ],
   "source_stats": [
@@ -176,14 +176,14 @@
     },
     {
       "source": "CNBC",
-      "avg_sentiment": 0.079,
-      "article_count": 8,
+      "avg_sentiment": 0.094,
+      "article_count": 6,
       "sentiment_label": "Neutral"
     },
     {
       "source": "TechCrunch",
-      "avg_sentiment": -0.218,
-      "article_count": 6,
+      "avg_sentiment": -0.267,
+      "article_count": 5,
       "sentiment_label": "Negative"
     },
     {
@@ -191,12 +191,6 @@
       "avg_sentiment": -0.225,
       "article_count": 2,
       "sentiment_label": "Negative"
-    },
-    {
-      "source": "The Guardian",
-      "avg_sentiment": 0.018,
-      "article_count": 2,
-      "sentiment_label": "Neutral"
     }
   ],
   "articles": [
@@ -228,15 +222,6 @@
       "confidence": 0.579
     },
     {
-      "headline": "Artificial intelligence (AI)",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOU9zMGlDeFJCRGZYZmduUFN1MHZuVDRpamdXRFR5X2EzdDdzdnFPVHRSNjl0cmhQbDZQQm5pUHplTzQ3b1dqTnV1X0ZyMGZ1SmR0N0V1aTY2VTdJQ0stcnMybm5YXzQwUGEtaXJabmQ3cS1iTDFaNDBaTzdtY2Vjd1d2VEpZQQ?oc=5",
-      "published": "2025-12-26T05:15:02",
-      "sentiment_score": -0.016,
-      "sentiment_label": "Neutral",
-      "confidence": 0.941
-    },
-    {
       "headline": "Wall Street wrote off Palantir as too expensive. Retail investors can't get enough",
       "source": "CNBC",
       "link": "https://www.cnbc.com/2025/12/25/palantir-retail-investors-valuation-karp.html",
@@ -244,15 +229,6 @@
       "sentiment_score": 0.188,
       "sentiment_label": "Neutral",
       "confidence": 0.785
-    },
-    {
-      "headline": "5 major trends set to shape travel in 2026",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2025/12/25/5-major-trends-set-to-shape-travel-in-2026.html",
-      "published": "2025-12-25T06:10:21Z",
-      "sentiment_score": 0.124,
-      "sentiment_label": "Neutral",
-      "confidence": 0.855
     },
     {
       "headline": "Monetizers vs manufactures: How the AI market could splinter in 2026",
@@ -300,15 +276,6 @@
       "confidence": 0.894
     },
     {
-      "headline": "How to track Santa Claus this Christmas Eve using AI | TechCrunch",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2025/12/24/how-to-track-santa-claus-this-christmas-eve-2022/",
-      "published": "2025-12-24T14:05:02Z",
-      "sentiment_score": 0.026,
-      "sentiment_label": "Neutral",
-      "confidence": 0.934
-    },
-    {
       "headline": "Amazon faces 'leader's dilemma' \u2014 fight AI shopping bots or join them",
       "source": "CNBC",
       "link": "https://www.cnbc.com/2025/12/24/amazon-faces-a-dilemma-fight-ai-shopping-agents-or-join-them.html",
@@ -329,7 +296,7 @@
     {
       "headline": "Build, Buy, or Adopt: Choosing Your Generative AI Procurement Path",
       "source": "The Wall Street Journal",
-      "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxNQ1hLczJ2aDdMeU1iUzVIT2lZb0o2ZFFPVFRYSVFqdElDUnZJWHM4OGdINGxFMWF6TkpfY2xZX3ZteW1jZE56UVJqRFk4cHFJa2ZSWGc2RkRhWkxUaVYxYVF6XzNDMWRDbERyMmprNjAwNjBFSDhTWGVYc3RRMHpSZE1Zb196SGVMdlZIVU9udFhHQ0VTUEFEWDE5TmxjdFdURDVDVXlXV19kanhWMkNLOHUwenNtbXVuVDY4ZVg2WURUREN3Y1hiZzB4Y2ducFhWRjJ1NmYtRU9rMUNjU2dWaDFsbUowaW8tRTJVY1VwM0RzQkJWTHhXaE5DcjZrcEtLZWFSUWE1cnBTemhFNkxzczh0a0k2MzdPTHNuRWhENlBhcHM4OGJzS2xKMU9FalFWamlXZERtSFFmaVc5cExFVHNSSzZRQUFna2FhSjFqd19aa1dkWlRjRWxfdHBoTkRnY3V2UHZjQWNIZTlYa2o1LUV5cnRHLVVEMkllckQ4cjR5UWZJc3dHSWhkUlladXFuRDFONTlhcFNsSFZJSThoUlZ6SVVIclM2?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxPZGQwVWp2V3hvVVpDRTBnWEFEZDRYT0UzSkRsdnV5MXp1M3FaYks0OE15cW5jaTdCLTVhem4ySHVvYkJNc1VEMDd2ZEJCYUJvaUg3UERXaGdPN1lzaG9ib2VwNkVlUVVyNHoxSjYwcERVSlpKQUE2WU1Ia2NpcHRuaE13aXc2aFpsSURpS0VKNGE1Q0h1Zmh2c2Qzd2Y4WWZsSG03TmdCQWRIS0p3c3U0MXhhQkdFS3A4YnptcGw1Q3I3MGtwR0xQcnp2YXFvaHUwUEpnWHBibXJ2a3NNc0szbGRxb2VoSEFhdTR4S2dlcEwtUEF5dkpUWDE4aEU4d3NaMnRNX1VGNkhJdloySE9SOFRsSjNUVElCM1lpd3dBNkhvUkl6eXFfandoV1F5T3BtcDZvNEJEQmlRQ1R5ak1BVU83MHR2N3FMU1dodHRTcHF1MlFGelhwSjJEYTJINEFiYXlqdDBuNjRyY3BjNkRXNDQzeklha2I3T2tndTRmOHRpdzNCclprNk1EYnR4UzFXV1Q0cjJqQ3BsYmJlQnBBQ0VNbDNDVGM4?oc=5",
       "published": "2025-12-23T17:00:00",
       "sentiment_score": 0.059,
       "sentiment_label": "Neutral",
@@ -568,15 +535,6 @@
       "sentiment_score": 0.066,
       "sentiment_label": "Neutral",
       "confidence": 0.901
-    },
-    {
-      "headline": "Sam Altman expects OpenAI to exit 'code red' by January after launch of GPT-5.2 model",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ0tINkctcEJWMllGTkd2T2JxQ0pfeWZxNndfN04tRDRqbk90QmU0d1J0RFNDQzluQkU1Q1dEcVYtQWhoY3E5NUlUWHlMV252a24tYjVSVEE5bmFOZ2d3bFUwV0N4UkZlWFdRTC16NjJRSTFzR1JuV1l5eTgtSk9mRHZ3Z1B5UDNrY0U3SUo2LW5hUUVUaFFSYUlvT3A0WHlvbENxZ0tCYjRBV2JFbEHSAbMBQVVfeXFMTzBBbkMtQzlZRnBzNXcyNjhSNnYxUVRKamNDQVV2YXkzVE5PR2U2T2pDNjVZSldrZUZ6WV9qZlc1Y3dRZnVHbjBCdzBKNUc2MUtrMGRKWW4yYk5aLTQtMVlQb2xTS25aSVVpTXZoMU5JRlNKXzRMcFctSDN6SnpHS1FqcmExOXk5U3lYV3B0M2swaTVzVVkwbl9CcUMzanU0OHRsdTVHZE1XRUpmTGFfV0lVSlU?oc=5",
-      "published": "2025-12-11T08:00:00",
-      "sentiment_score": -0.053,
-      "sentiment_label": "Neutral",
-      "confidence": 0.88
     },
     {
       "headline": "Porn company starts new age checks after \u00a31m Ofcom fine",
