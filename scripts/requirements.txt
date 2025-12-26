@@ -1,0 +1,5 @@
+feedparser>=6.0.10
+transformers
+torch>=2.0.0
+pandas
+requests

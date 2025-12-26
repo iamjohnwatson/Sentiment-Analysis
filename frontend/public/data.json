@@ -1,0 +1,333 @@
+{
+  "last_updated": "2025-12-25T19:50:27.176163",
+  "total_articles": 28,
+  "overall_sentiment": -0.126,
+  "overall_label": "Neutral",
+  "daily_stats": [
+    {
+      "date": "2025-12-20",
+      "avg_sentiment": -0.235,
+      "article_count": 2,
+      "positive_count": 0,
+      "negative_count": 1,
+      "neutral_count": 1,
+      "moving_avg": -0.235
+    },
+    {
+      "date": "2025-12-22",
+      "avg_sentiment": -0.243,
+      "article_count": 6,
+      "positive_count": 0,
+      "negative_count": 2,
+      "neutral_count": 4,
+      "moving_avg": -0.239
+    },
+    {
+      "date": "2025-12-23",
+      "avg_sentiment": -0.009,
+      "article_count": 9,
+      "positive_count": 3,
+      "negative_count": 2,
+      "neutral_count": 4,
+      "moving_avg": -0.162
+    },
+    {
+      "date": "2025-12-24",
+      "avg_sentiment": -0.099,
+      "article_count": 8,
+      "positive_count": 1,
+      "negative_count": 3,
+      "neutral_count": 4,
+      "moving_avg": -0.146
+    },
+    {
+      "date": "2025-12-25",
+      "avg_sentiment": -0.242,
+      "article_count": 3,
+      "positive_count": 0,
+      "negative_count": 1,
+      "neutral_count": 2,
+      "moving_avg": -0.166
+    }
+  ],
+  "source_stats": [
+    {
+      "source": "TechCrunch",
+      "avg_sentiment": -0.004,
+      "article_count": 9,
+      "sentiment_label": "Neutral"
+    },
+    {
+      "source": "CNBC",
+      "avg_sentiment": -0.046,
+      "article_count": 7,
+      "sentiment_label": "Neutral"
+    },
+    {
+      "source": "The Verge",
+      "avg_sentiment": -0.364,
+      "article_count": 4,
+      "sentiment_label": "Negative"
+    },
+    {
+      "source": "The New York Times",
+      "avg_sentiment": -0.147,
+      "article_count": 2,
+      "sentiment_label": "Neutral"
+    }
+  ],
+  "articles": [
+    {
+      "headline": "Opinion | The seepage of AI into Christian practice is disturbing",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOVp5ZDVIS2lJYldhTDEtWk9JeW94M1QxNFppcGR4eU5RdnVUSU9qalBDNWFCY1BFUFJZMm90T2pDb1RjTHpNdWpaRXJsVGprd0FIRm8waUs0NV9BVE9rcVV6RDBzRVNkSXZpRWJOMHhQUHVIci1JM1I2ZC1KdWZvSjRGbkdVTlQza1RyRk9Gdl9iOVZ4ajFtMXVBXzY5ekVkVUhRVHhB?oc=5",
+      "published": "2025-12-25T13:32:16",
+      "sentiment_score": -0.801,
+      "sentiment_label": "Negative",
+      "confidence": 0.821
+    },
+    {
+      "headline": "Hollywood cozied up to AI in 2025 and had nothing good to show for it",
+      "source": "The Verge",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQ0RpNXRzUENRWHJFLW1LOXN0dktPUjUxckttZ2lYck5JblZVSGxvTnhJUFUwSXdOd1hKY3FrSjNucUp4dE5TVnJUME1qZFpfc2g5QjQzWEUyaDF6VGRjTUYtQmk5YnhsMkd5UDd1c1pvZmhJd05HLVZ6NllxSWVoYzBZN01RYkI1eFk3bQ?oc=5",
+      "published": "2025-12-25T13:00:00",
+      "sentiment_score": 0.022,
+      "sentiment_label": "Neutral",
+      "confidence": 0.907
+    },
+    {
+      "headline": "The Class Where \u2018Screenagers\u2019 Train to Navigate Social Media and A.I.",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPa3BNb1NueTR4c1VkRHhqN3IyQmo4MGVSVnk5aHBRbzJmUmdiY1JELXRZa3RZMm14TzFtTk5xSnpnelVGVGJPNVhnSXpHWDMyUXdqUXdzNjJIYk5ZZlJPeHBTSDFxSnVUbTZIOWRGQzhrcVliUl9DVEIxVDBYUWRfcTltdWx6UQ?oc=5",
+      "published": "2025-12-25T10:00:14",
+      "sentiment_score": 0.052,
+      "sentiment_label": "Neutral",
+      "confidence": 0.904
+    },
+    {
+      "headline": "Exclusive: Nvidia buying AI chip startup Groq's assets for about $20 billion in its largest deal on record",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQU9lN25BUEthQm9ISEdZc1FaMGhEdm14SEoxaTBXZS1jMUxjc1JURG51cEZlaE0zYUpsTHJXR2o3bmVRVmpaZnZob28yX3ZqTzdhU1BXejVnc0tZWWJqRXp4WWVKQlAyMXdoV0cxMnF5VGZDblJRLTg4YTkzS242eU1XOG1uNkRwRTJBM1ZUS2Q5RkczWWNrbkkyOWg4SjRGWkdGbzhmN1jSAa4BQVVfeXFMUGFwWC1PZjlPQkZxcGZwODBIaDBWdHZwdXpidGZwNjF0SDNWTTFDQl9FMTVIZnNfalFURzFheHJFbFBqZjFYLVB2SDh0Q1o5WENWLVZUZFpvOUdibFU3c3BRZkJmbVpzZGhicFBUdUx3cUE4ZEJnTTdKYTJaNDFFU29OdF85X0FHUWotejFGYmVLY1JYNW5RcnB5ZktnTnFKUEtsb0UyaWRXSEh4YldB?oc=5",
+      "published": "2025-12-24T20:54:16",
+      "sentiment_score": 0.111,
+      "sentiment_label": "Neutral",
+      "confidence": 0.862
+    },
+    {
+      "headline": "How to track Santa Claus this Christmas Eve using AI | TechCrunch",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2025/12/24/how-to-track-santa-claus-this-christmas-eve-2022/",
+      "published": "2025-12-24T14:05:02Z",
+      "sentiment_score": 0.026,
+      "sentiment_label": "Neutral",
+      "confidence": 0.934
+    },
+    {
+      "headline": "These 5 infrastructure stocks have more than tripled this year on the AI trade",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2025/12/24/ai-infrastructure-stocks-lumentum-celestica-seagate-beat-nvidia-2025.html",
+      "published": "2025-12-24T13:00:01Z",
+      "sentiment_score": 0.935,
+      "sentiment_label": "Positive",
+      "confidence": 0.952
+    },
+    {
+      "headline": "Economy grows, chip tariff delay, new S&P 500 record and more in Morning Squawk",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2025/12/24/economy-grows-chip-tariff-delay-new-sp-500-record-and-more-in-morning-squawk.html",
+      "published": "2025-12-24T12:42:27Z",
+      "sentiment_score": -0.019,
+      "sentiment_label": "Neutral",
+      "confidence": 0.906
+    },
+    {
+      "headline": "Amazon faces 'leader's dilemma' \u2014 fight AI shopping bots or join them",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2025/12/24/amazon-faces-a-dilemma-fight-ai-shopping-agents-or-join-them.html",
+      "published": "2025-12-24T12:00:02Z",
+      "sentiment_score": -0.733,
+      "sentiment_label": "Negative",
+      "confidence": 0.752
+    },
+    {
+      "headline": "The Age of the All-Access AI Agent Is Here",
+      "source": "Wired",
+      "link": "https://www.wired.com/story/expired-tired-wired-all-access-ai-agents/",
+      "published": "2025-12-24T11:00:00Z",
+      "sentiment_score": -0.062,
+      "sentiment_label": "Neutral",
+      "confidence": 0.865
+    },
+    {
+      "headline": "Trump Administration Downplays A.I. Risks, Ignoring Economists\u2019 Concerns",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTGtaWE1rTUYzTDhFeVhmU3ZsTHRXRC1GMUxtYmpSZkpnZTVUYnBUcXhKUmZSQVBOV2JMM3JURy1MTExtZFdvOXVFMWZxMmVVUTNrZURORTFwZVlhaVJxLXhreHY1YWpKMDM5VXlTU1labkdGY25USlFlLXU0dHFTc1Q1ZjMyZDdGaHFReHF5aEJzVTk3SVhGNHc0Yw?oc=5",
+      "published": "2025-12-24T10:02:31",
+      "sentiment_score": -0.346,
+      "sentiment_label": "Neutral",
+      "confidence": 0.579
+    },
+    {
+      "headline": "Asia\u2019s year in review: Who had it best \u2014 and who had it worst \u2014 in 2025",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2025/12/24/asias-year-in-review-who-had-it-best-and-who-had-it-worst-in-2025.html",
+      "published": "2025-12-24T00:58:59Z",
+      "sentiment_score": -0.703,
+      "sentiment_label": "Negative",
+      "confidence": 0.752
+    },
+    {
+      "headline": "Motive, an Alphabet-backed fleet management software company, files for IPO",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2025/12/23/alphabet-backed-motive-files-for-ipo.html",
+      "published": "2025-12-23T22:58:57Z",
+      "sentiment_score": 0.209,
+      "sentiment_label": "Neutral",
+      "confidence": 0.754
+    },
+    {
+      "headline": "John Carreyrou and other authors bring new lawsuit against six major AI companies | TechCrunch",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2025/12/23/john-carreyrou-and-other-authors-bring-new-lawsuit-against-six-major-ai-companies/",
+      "published": "2025-12-23T19:04:29Z",
+      "sentiment_score": -0.793,
+      "sentiment_label": "Negative",
+      "confidence": 0.845
+    },
+    {
+      "headline": "Build, Buy, or Adopt: Choosing Your Generative AI Procurement Path",
+      "source": "The Wall Street Journal",
+      "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxPQTN6SHE3WUlJWjFZdGp5b1hXMmZYWGl1RFgzZVI3Z3ZoNGphX3h1aDJjNm1qcnEwNmU2ZlpLSlN3MGhwZFdxTHMwU3VTVWlVcjg3VHh6QUtSWDE3aWlNYjJoTWM0RkkyZGU5NDV1Z1NBQ1FUVkpsTmZqREhYdnJlcV81U01ibmR0ellLR0NrVUpRTm4xcW15dmI4Xy0zWUVVMXdKeVh2RXVBVFQwZU5MZjllVXZ0enY3emhtc3lmLXdfOFRPZ24yVDJtZUZBZms4eG1zdk1FRmlnb1Rkc3NEY09BOFBVN1FQS0NIaDlVWGVwQ1dKaVM3VU8yQXd2bGYwcmlMOTJ3TW5adFRLTVRfeV9GaFpLbEZNdEp6d1BXUzlkU09sRGwwOExKdWJFeUt0U2lfMzJHSmVRR0I0MDBQNFEwYzdFYURuMXVjYWlQNGlsREZabEVvVFcteGNBVFVXdGxkR2JrOTJIeWZGbzdZZXlfN3NCcTZsS0hINTlPcmJjeTZSdlRhOGU5aENsQ043NWlJbG00SHJiM0NpTUFYNF9NcVhNV1lt?oc=5",
+      "published": "2025-12-23T17:00:00",
+      "sentiment_score": 0.059,
+      "sentiment_label": "Neutral",
+      "confidence": 0.91
+    },
+    {
+      "headline": "Marissa Mayer\u2019s new startup Dazzle raises $8M led by Forerruner's Kirsten Green | TechCrunch",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2025/12/23/marissa-mayers-new-startup-dazzle-raises-8m-led-by-forerunners-kirsten-green/",
+      "published": "2025-12-23T16:49:57Z",
+      "sentiment_score": 0.87,
+      "sentiment_label": "Positive",
+      "confidence": 0.886
+    },
+    {
+      "headline": "New York\u2019s landmark AI safety bill was defanged \u2014 and universities were part of the push against it",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/849293/ai-alliance-universities-colleges-funding-ad-campaign-against-raise-act",
+      "published": "2025-12-23T16:18:49Z",
+      "sentiment_score": -0.566,
+      "sentiment_label": "Negative",
+      "confidence": 0.607
+    },
+    {
+      "headline": "Amazon's AI assistant Alexa+ now works with Angi, Expedia, Square, and Yelp | TechCrunch",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2025/12/23/amazons-ai-assistant-alexa-now-works-with-angi-expedia-square-and-yelp/",
+      "published": "2025-12-23T16:07:21Z",
+      "sentiment_score": 0.003,
+      "sentiment_label": "Neutral",
+      "confidence": 0.953
+    },
+    {
+      "headline": "Lemon Slice nabs $10.5M from YC and Matrix to build out its digital avatar tech | TechCrunch",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2025/12/23/lemon-slice-nabs-10-5m-from-yc-and-matrix-to-build-out-its-digital-avatar-tech/",
+      "published": "2025-12-23T16:01:37Z",
+      "sentiment_score": 0.309,
+      "sentiment_label": "Neutral",
+      "confidence": 0.674
+    },
+    {
+      "headline": "Here's how AI could influence the Fed's economic outlook",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2025/12/23/ais-machine-learning-may-net-productivity-gains-and-influence-fed.html",
+      "published": "2025-12-23T15:47:11Z",
+      "sentiment_score": -0.119,
+      "sentiment_label": "Neutral",
+      "confidence": 0.727
+    },
+    {
+      "headline": "Google\u2019s and OpenAI\u2019s Chatbots Can Strip Women in Photos Down to Bikinis",
+      "source": "WIRED",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQnYxMjJtOVhFNEV4eU5HaFBXMkVCUEJfZ2ZFa1o3bW9taXppZ2szWGVCTHdMSy11ZFp4WldaVGRQWmt1bzZfSUNVLUQ5MGJ4LVZkdnZjMHpYN0NvQk9GRFplSllMQmVqTEJhcTJhdnlobXZEWElJc2RtZWZPZFJhVnBZWlJEdG5Gc1llVmRaRF9UWTFFMjREUC1jNWxzTnc?oc=5",
+      "published": "2025-12-23T11:30:00",
+      "sentiment_score": -0.054,
+      "sentiment_label": "Neutral",
+      "confidence": 0.905
+    },
+    {
+      "headline": "ChatGPT\u2019s yearly recap sums up your conversations with the chatbot",
+      "source": "The Verge",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSzItWXBSUFA0LTVocW95aTRrVFFYYkNCT1pmbWxOa0ZXbDFmV0FWV0p5RnpxaGhRVlpUbmtkRVpQWFpoVWNfa2gyRzJsbkZLeDVOQWVYdF9NSmJwMm5IbWhLN2lMWE1MQTJCandiaVpCMHFpX0xPM1V6Wjg3Q1A4dG50dW1lZw?oc=5",
+      "published": "2025-12-22T22:12:11",
+      "sentiment_score": -0.008,
+      "sentiment_label": "Neutral",
+      "confidence": 0.931
+    },
+    {
+      "headline": "OpenAI says AI browsers may always be vulnerable to prompt injection attacks",
+      "source": "TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ0ZBWE5zU1RMUklvNTVHalNSdzVmZFFvdW5sNS1uc3dpb0g4WDhVMlZhaHByU1ROVG9JRDd5bDhsY21TRDNieDdlTkZWSWVzblVqcWxpblZIZzZLcW9UR25yUGY1MEVrNldRUlRGdlQ3VGtVXzQxaWNISWdJbl9rYXFJSDBNMXZSWmJ6NEZNZGtyV3d0T2pNOHNHTzFpZ1VQdlU2NlJYZWEzRFlqdFpjNw?oc=5",
+      "published": "2025-12-22T22:11:19",
+      "sentiment_score": -0.524,
+      "sentiment_label": "Negative",
+      "confidence": 0.556
+    },
+    {
+      "headline": "ChatGPT launches a year-end review like Spotify Wrapped",
+      "source": "TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdTN6OHpsdTJoT0lTTk9NNVZpZVBNbDRiOFlWTzNKZjNDaEFIZVNySThzSHU0VGpEUzdnWXpOWFBNT3VKVXh1bnRJenl4UUxzcDhmWTduT2p5cmV0alRFU3ljWDlfSk83c0NfVDVVMU41UW1xTElldTdCVVBoYUpMRG92cjh3ZTdmQk5uUmlmY0ZvSzRs?oc=5",
+      "published": "2025-12-22T19:01:04",
+      "sentiment_score": 0.044,
+      "sentiment_label": "Neutral",
+      "confidence": 0.923
+    },
+    {
+      "headline": "Indie Game Awards retracts Expedition 33 prizes due to generative AI",
+      "source": "The Verge",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPT1FveURyLWJ5SF90VjNiNzFNaGJsTzlCWmh4R25RN2NkWFdKLU5TTzlsSm1fMVo3TzFSRlBPOGdONFd6SzFIeGJWV0xKN2ZUNDFkTUROYWdsU1FaZ1FtVzlRUjhFTXc1ZUpCV0t4d285bms4R1dXaDhHd25LRXFFNlZEbnpyMjBpNHFLbGZWUmxwSWVwQ0VQXzRHYnNlbFVCclBhazZldXZSUE1WVEZoUFRHYlJJdDQ?oc=5",
+      "published": "2025-12-22T18:47:58",
+      "sentiment_score": -0.903,
+      "sentiment_label": "Negative",
+      "confidence": 0.917
+    },
+    {
+      "headline": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+      "source": "TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ1d3LUtLcVhrbkotTWl0QUkyWlhXcmRQTHBLUlFjem5DNTl5cVJ1eHFDSjVrSWtpTnlCWkdaVXd3T09wellmVUpCRjhNbk9LSGdCdGdaRXNjOVBHem51WUpJVnFjNzRsbUlhLWpuRUM4WnBPMWxIa2thcmZGY2FXZTJmYVJZLUViRHc?oc=5",
+      "published": "2025-12-22T15:43:15",
+      "sentiment_score": 0.011,
+      "sentiment_label": "Neutral",
+      "confidence": 0.947
+    },
+    {
+      "headline": "US mortgage lenders insure against artificial intelligence screening errors",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wQk1mTVhYLTBZT3ByYXBld2tLRjJxanRoZm5kc05PRG15ZEJSMENjOWN4ZUduQWZWVjdHRVhqMU1XVkZmR0lGRUFPUFBrWmEwY0pCMUtEWS1fSHpyY3V0UlVRaWI2LXZQdnVSd0pWWkU?oc=5",
+      "published": "2025-12-22T05:00:46",
+      "sentiment_score": -0.077,
+      "sentiment_label": "Neutral",
+      "confidence": 0.861
+    },
+    {
+      "headline": "OpenAI allows users to directly adjust ChatGPT\u2019s enthusiasm level",
+      "source": "TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUzNoN1YtMDBCVFRBQXRobEQzV3JJeDdRb21PSHc0R0xnYnVSQndWdlMxZUpMOHdyeVBxei0xekw2UVFJRGFQcDIyQnBuUWptc0I3SE15YTh4dENvOFVBVFNibXB3LVc2c3N3ZkNWejZPVFdDYXo3SzRNcndsQURFSS14Q0F1SEdqWlJNQVhWT2labXdORnJmVnFjSnFqa3ZvYWdQc2hPWQ?oc=5",
+      "published": "2025-12-20T20:34:07",
+      "sentiment_score": 0.018,
+      "sentiment_label": "Neutral",
+      "confidence": 0.93
+    },
+    {
+      "headline": "Experts warn AI is making your brain work less",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QS09EVlhRdmdPUXdpaXA0OUpVODhLSmxPRGhHaFdCcS1FUlFuWlVXZG5DbkhKbXpBTklnQmlqUVo2dFNfTlRRT2huMTNQbVJwOUtqZ1RkNU9fQdIBX0FVX3lxTFBGRXEtM3RTS2hDYXBIZlhRZFNCVmNidHMxOGF3Vk5kZU5DeExERUhNX2lPdzRVN2k5RWRuNnJBUUl4OVhUMFYycWMxTzlfX0ZycFFKRVBUSGYwNkNJbHJr?oc=5",
+      "published": "2025-12-20T01:45:06",
+      "sentiment_score": -0.489,
+      "sentiment_label": "Negative",
+      "confidence": 0.51
+    }
+  ]
+}
