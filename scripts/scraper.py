@@ -17,10 +17,14 @@ import pandas as pd
 NEWSAPI_KEY = os.environ.get("NEWSAPI_KEY")
 HF_API_TOKEN = os.environ.get("HF_API_TOKEN")
 
-if not NEWSAPI_KEY or not HF_API_TOKEN:
-    print("Error: NEWSAPI_KEY and HF_API_TOKEN environment variables are required.")
-    print("Set them with: export NEWSAPI_KEY=your_key && export HF_API_TOKEN=your_token")
-    exit(1)
+# API Configuration - Make optional to prevent workflow failures
+NEWSAPI_KEY = os.environ.get("NEWSAPI_KEY")
+HF_API_TOKEN = os.environ.get("HF_API_TOKEN")
+
+if not NEWSAPI_KEY:
+    print("Warning: NEWSAPI_KEY not found. NewsAPI sources will be skipped.")
+if not HF_API_TOKEN:
+    print("Warning: HF_API_TOKEN not found. Using Hugging Face model anonymously (rate limits may apply).")
 
 # NewsAPI endpoints
 NEWSAPI_URL = "https://newsapi.org/v2/everything"
@@ -302,12 +306,11 @@ def analyze_sentiment_with_hf(articles):
     os.environ["HF_TOKEN"] = HF_API_TOKEN
     
     # FinBERT is specifically trained on financial news
-    sentiment_pipeline = pipeline(
-        "sentiment-analysis",
-        model="ProsusAI/finbert",
-        token=HF_API_TOKEN,
-        top_k=None
-    )
+    model_kwargs = {"model": "ProsusAI/finbert", "top_k": None}
+    if HF_API_TOKEN:
+        model_kwargs["token"] = HF_API_TOKEN
+        
+    sentiment_pipeline = pipeline("sentiment-analysis", **model_kwargs)
     
     print(f"Analyzing sentiment for {len(articles)} articles...")
     
@@ -428,9 +431,13 @@ def main():
     print("\n1. Fetching news from multiple sources...")
     
     # Source 1: NewsAPI (curated sources only)
-    print("\n  [NewsAPI]")
-    newsapi_articles = fetch_news_from_newsapi()
-    print(f"    → {len(newsapi_articles)} articles from NewsAPI")
+    if NEWSAPI_KEY:
+        print("\n  [NewsAPI]")
+        newsapi_articles = fetch_news_from_newsapi()
+        print(f"    → {len(newsapi_articles)} articles from NewsAPI")
+    else:
+        print("\n  [NewsAPI] Skipped (No API Key)")
+        newsapi_articles = []
     
     # Source 2: Google News RSS (includes Reuters, Bloomberg, etc.)
     print("\n  [Google News RSS]")
