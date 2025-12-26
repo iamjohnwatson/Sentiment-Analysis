@@ -24,6 +24,7 @@ env:
 
 jobs:
   update-data:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
