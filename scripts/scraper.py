@@ -241,7 +241,9 @@ def fetch_news_from_bbc_rss():
     print("  Fetching from BBC Technology RSS...")
     
     try:
-        feed = feedparser.parse(BBC_RSS_URL)
+        response = requests.get(BBC_RSS_URL, timeout=15)
+        response.raise_for_status()
+        feed = feedparser.parse(response.text)
         
         for entry in feed.entries:
             title = entry.get("title", "")
@@ -449,8 +451,9 @@ def main():
         print("   ⚠️ No articles found, exiting.")
         return
     
-    # Analyze sentiment
-    print("\n2. Running sentiment analysis with Hugging Face...")
+    # Analyze sentiment (Limit to top 100 to prevent timeouts/stalls)
+    print(f"\n2. Running sentiment analysis on top 100 articles...")
+    articles = articles[:100]
     articles = analyze_sentiment_with_hf(articles)
     
     # Calculate statistics
