@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-12-27T06:21:21.817684",
-  "total_articles": 43,
-  "overall_sentiment": -0.236,
+  "last_updated": "2025-12-27T12:24:52.858476",
+  "total_articles": 46,
+  "overall_sentiment": -0.239,
   "overall_label": "Negative",
   "daily_stats": [
     {
@@ -50,22 +50,31 @@
       "moving_avg": -0.061
     },
     {
+      "date": "2025-12-03",
+      "avg_sentiment": -0.359,
+      "article_count": 1,
+      "positive_count": 0,
+      "negative_count": 1,
+      "neutral_count": 0,
+      "moving_avg": -0.11
+    },
+    {
       "date": "2025-12-10",
       "avg_sentiment": -0.423,
       "article_count": 2,
       "positive_count": 0,
       "negative_count": 1,
       "neutral_count": 1,
-      "moving_avg": -0.121
+      "moving_avg": -0.155
     },
     {
       "date": "2025-12-11",
-      "avg_sentiment": -0.446,
-      "article_count": 2,
+      "avg_sentiment": -0.315,
+      "article_count": 3,
       "positive_count": 0,
       "negative_count": 1,
-      "neutral_count": 1,
-      "moving_avg": -0.168
+      "neutral_count": 2,
+      "moving_avg": -0.225
     },
     {
       "date": "2025-12-12",
@@ -74,7 +83,7 @@
       "positive_count": 0,
       "negative_count": 4,
       "neutral_count": 1,
-      "moving_avg": -0.286
+      "moving_avg": -0.347
     },
     {
       "date": "2025-12-15",
@@ -83,7 +92,7 @@
       "positive_count": 0,
       "negative_count": 1,
       "neutral_count": 2,
-      "moving_avg": -0.36
+      "moving_avg": -0.404
     },
     {
       "date": "2025-12-16",
@@ -92,16 +101,7 @@
       "positive_count": 2,
       "negative_count": 0,
       "neutral_count": 2,
-      "moving_avg": -0.339
-    },
-    {
-      "date": "2025-12-17",
-      "avg_sentiment": 0.042,
-      "article_count": 1,
-      "positive_count": 0,
-      "negative_count": 0,
-      "neutral_count": 1,
-      "moving_avg": -0.288
+      "moving_avg": -0.327
     },
     {
       "date": "2025-12-18",
@@ -110,7 +110,7 @@
       "positive_count": 0,
       "negative_count": 0,
       "neutral_count": 2,
-      "moving_avg": -0.233
+      "moving_avg": -0.271
     },
     {
       "date": "2025-12-19",
@@ -119,7 +119,7 @@
       "positive_count": 1,
       "negative_count": 0,
       "neutral_count": 0,
-      "moving_avg": -0.144
+      "moving_avg": -0.191
     },
     {
       "date": "2025-12-20",
@@ -128,7 +128,7 @@
       "positive_count": 0,
       "negative_count": 0,
       "neutral_count": 1,
-      "moving_avg": -0.077
+      "moving_avg": -0.128
     },
     {
       "date": "2025-12-22",
@@ -137,7 +137,7 @@
       "positive_count": 1,
       "negative_count": 1,
       "neutral_count": 2,
-      "moving_avg": 0.001
+      "moving_avg": -0.098
     },
     {
       "date": "2025-12-23",
@@ -146,16 +146,16 @@
       "positive_count": 0,
       "negative_count": 2,
       "neutral_count": 3,
-      "moving_avg": -0.004
+      "moving_avg": -0.056
     },
     {
       "date": "2025-12-24",
-      "avg_sentiment": -0.374,
-      "article_count": 4,
+      "avg_sentiment": -0.276,
+      "article_count": 2,
       "positive_count": 1,
-      "negative_count": 2,
-      "neutral_count": 1,
-      "moving_avg": -0.089
+      "negative_count": 1,
+      "neutral_count": 0,
+      "moving_avg": -0.05
     },
     {
       "date": "2025-12-25",
@@ -164,16 +164,25 @@
       "positive_count": 1,
       "negative_count": 1,
       "neutral_count": 0,
-      "moving_avg": -0.106
+      "moving_avg": -0.092
     },
     {
       "date": "2025-12-26",
-      "avg_sentiment": -0.772,
-      "article_count": 1,
+      "avg_sentiment": -0.553,
+      "article_count": 3,
+      "positive_count": 0,
+      "negative_count": 2,
+      "neutral_count": 1,
+      "moving_avg": -0.164
+    },
+    {
+      "date": "2025-12-27",
+      "avg_sentiment": -0.21,
+      "article_count": 2,
       "positive_count": 0,
       "negative_count": 1,
-      "neutral_count": 0,
-      "moving_avg": -0.209
+      "neutral_count": 1,
+      "moving_avg": -0.223
     }
   ],
   "source_stats": [
@@ -184,27 +193,75 @@
       "sentiment_label": "Negative"
     },
     {
+      "source": "CNBC",
+      "avg_sentiment": -0.009,
+      "article_count": 5,
+      "sentiment_label": "Neutral"
+    },
+    {
       "source": "TechCrunch",
-      "avg_sentiment": -0.203,
-      "article_count": 4,
+      "avg_sentiment": 0.024,
+      "article_count": 3,
+      "sentiment_label": "Neutral"
+    },
+    {
+      "source": "The New York Times",
+      "avg_sentiment": -0.455,
+      "article_count": 2,
       "sentiment_label": "Negative"
     },
     {
-      "source": "CNBC",
-      "avg_sentiment": 0.316,
-      "article_count": 3,
-      "sentiment_label": "Positive"
+      "source": "The Washington Post",
+      "avg_sentiment": -0.542,
+      "article_count": 2,
+      "sentiment_label": "Negative"
     }
   ],
   "articles": [
     {
+      "headline": "Opinion | Sal Khan: A.I. Will Displace Workers at a Scale Many Don\u2019t Realize",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ1hkY3dYUUxSdmZnVDlSZ3ZDRTZKakgtRmMtMVJvN0xoQVJycU12NURwTTJQbmwtelNGSXhKSzFxV2prMU16ZzRrRUxLOHRlWVdLc0M1dEhVd0t4LVdHbGZja2s4bk1IVUF5LU9tRlp0ODJsMHNtWFlDamxMSnRMRWNOY2N1TjR1MWZzb2VsUXlNQ0pramlF?oc=5",
+      "published": "2025-12-27T12:00:07",
+      "sentiment_score": -0.138,
+      "sentiment_label": "Neutral",
+      "confidence": 0.769
+    },
+    {
+      "headline": "ChatGPT typed words like \u2018suicide,\u2019 \u2018hanging\u2019 with teen in grip of crisis",
+      "source": "The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNlFmbVluM1pCcDQyVzRSQU5aUUVkMlNIbVJTRHlaNEFsYjFhZFBad0psbWNkZ0RialdpenRUTGFLTkhlYVBYQ2EycGdTTVpMN3E1YjZFYS1fMjF0VFpEYV9fWVFTSzFmYS1vWDlFMDV6cTFnMk5nd3psczJNWm1WY1R2R1dmUFdEUkE?oc=5",
+      "published": "2025-12-27T11:31:55",
+      "sentiment_score": -0.283,
+      "sentiment_label": "Neutral",
+      "confidence": 0.609
+    },
+    {
       "headline": "As A.I. Companies Borrow Billions, Debt Investors Grow Wary",
       "source": "The New York Times",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBwenJ4MzVnQVFfcm10MkJSTndfU2JVU3JkSklxV0JIQUN3TWNLdXlMcXFkd0xkWDJ0UWI2LUNZV3pURjhwNWtSbkxnRjNFd0JTeWRjOEZNeDhyVTA5Q3ROakU3S09qQUdraTBvR2tra2Jfc0ps?oc=5",
-      "published": "2025-12-26T10:02:16",
+      "published": "2025-12-26T14:12:48",
       "sentiment_score": -0.772,
       "sentiment_label": "Negative",
       "confidence": 0.796
+    },
+    {
+      "headline": "Our king, priest and feudal lord \u2013 how AI is taking us back to the dark ages | Joseph de Weck",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX2g5R1B0UHJ5UEFLWWJoWFc0S2xKMWZnYndWNzNRZWhXU0ZnYUFlUms1azBzM3hsb2pycFo3bGJGTWxISEoxUnplZVZEc1E3TEx4bFk3TGVkMm5JRXlraTQweUVqMHlKTDJNUnp5UFg1YU1uUE9NcFpGXzBaanRUV0lQNjBNbk0?oc=5",
+      "published": "2025-12-26T14:11:00",
+      "sentiment_score": 0.052,
+      "sentiment_label": "Neutral",
+      "confidence": 0.885
+    },
+    {
+      "headline": "Oracle shares on pace for worst quarter since 2001 as new CEOs face concerns about AI buildout",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2025/12/26/oracle-stock-on-pace-for-worst-quarter-since-2001-ai-concerns.html",
+      "published": "2025-12-26T12:00:01Z",
+      "sentiment_score": -0.938,
+      "sentiment_label": "Negative",
+      "confidence": 0.955
     },
     {
       "headline": "Opinion | The seepage of AI into Christian practice is disturbing",
@@ -243,27 +300,9 @@
       "confidence": 0.919
     },
     {
-      "headline": "Italy tells Meta to suspend its policy that bans rival AI chatbots from WhatsApp | TechCrunch",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2025/12/24/italy-tells-meta-to-suspend-its-policy-that-bans-rival-ai-chatbots-from-whatsapp/",
-      "published": "2025-12-24T14:41:31Z",
-      "sentiment_score": -0.884,
-      "sentiment_label": "Negative",
-      "confidence": 0.894
-    },
-    {
-      "headline": "The Age of the All-Access AI Agent Is Here",
-      "source": "Wired",
-      "link": "https://www.wired.com/story/expired-tired-wired-all-access-ai-agents/",
-      "published": "2025-12-24T11:00:00Z",
-      "sentiment_score": -0.062,
-      "sentiment_label": "Neutral",
-      "confidence": 0.865
-    },
-    {
       "headline": "Build, Buy, or Adopt: Choosing Your Generative AI Procurement Path",
       "source": "The Wall Street Journal",
-      "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxOVHpLa1JKUjE0cTVfSkVuWnRvU1NLblh5UGZSby1wYXZfM1JvSEMwdmtfTGdiVUpwRUNCWUFyUHFiYXNRaGx1Wk1MeVh6amVhY0hLZm1sVW1CMjBPd0NxbEQ1aWlraVMyUUZpekV5QWJhaGNHeEswMXJTaDl5VDZQS0t6OUJNdlJVVUFha3lHakVVV0doNVB2WFFCcVRHLTB2OS1PX2ZIVzRkN25rOWZpSGpKM0h6T1ZoNGl5cUpaT2g3VkhGVG1CZC1sUzhCajRGdW5IcGxKTXpwX3RpZk10ZUp0N3lrckZ5MW44Vm5qM29ZQWpHSmx4UFBTTkNpWUs4LXBvTllCOWhKZjRlQW0xcVE5cUEwbkZ2QVV3WVFpdWxNVGFKeEE5SmFjN01WdnJ3QkRSTWUyOFlVdzE1bHZyOEdwcU5pOF9ac0RsN043Nmg2dnNKT1YzU3ZGVEotVGhoaWhwYTR6Y01JNTF4VDF4REhxN1dWZnc0LWJ1VHdnX2ZqcVByMmpmaGYyNktsZnRxclpaZ0Vjbzg0WTJLdWxSLVhESnFWdWdV?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxQd2ktR01mT1ZoRjc0MXJvZ1Y2X25UaHZEUkhjekdMLVdFSUhNM01UQ3Y5ZHN5UDBkQndLdHc5clp0SWhjaVdJdGlTUS04akNPTVNkYTZmbktFeWVGVFVJUG9zYlgwMU9wcFliZzNBX1V2RldEallWcUo3TjB4a0d6bmRlUlprT05RZXJxLU1rTVI4amxWeFRTRmtyTkg1OVRHODhWOUxKdE02ZTVGb19Qc1hfbVdoSTNJYmxYa2xzU19CMTlZZjlOUmVJRGg0SjVNT3BmY2tFQWhKVXptVEhpVU1NX3RKd0dacnd1TnBNMTBENDZzN2RycG52Tk4tYWpVMGRVWGc5YTFyci1vR1VNWWppa1dFM3dPUmdpSzNrQVRCTmZON2lqSWhUY3BXaFFnWWZGWXNyeDNWLTB5cEdqSjZ6ZXhVR29UZVRpVDlhSHBDbkR3X0JIckVPVFdXdnlmakp3VGQ3bGFiNThIdW43R0toX094azNaR3FzN19Wb29adnY5aW9VRExxU0lxOWdvRWNuR3NuMHhfNzMxVlJ5cDVoTGE2bng0?oc=5",
       "published": "2025-12-23T17:00:00",
       "sentiment_score": 0.059,
       "sentiment_label": "Neutral",
@@ -376,15 +415,6 @@
       "sentiment_score": 0.01,
       "sentiment_label": "Neutral",
       "confidence": 0.937
-    },
-    {
-      "headline": "OpenAI\u2019s new ChatGPT image generator makes faking photos easy",
-      "source": "Ars Technica",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSktXR24xMEFUNVkzandTOTR1bEZGTkxHVlpudlhYaV9iSmtKY2VyMUtEWlM5dzFaSWtZdklWNWZQSUpDd3BMMUt5a2JsMEd1cXpnQjRoRnV2MHhuVVIyMWJTMkx3azlXQnFPaEFTT0phenlRcDROOXAwN2lXbDlOREdISFRDV082VmEtUW5hdVlsZXdWc0NORXBXTU8?oc=5",
-      "published": "2025-12-17T08:00:00",
-      "sentiment_score": 0.042,
-      "sentiment_label": "Neutral",
-      "confidence": 0.924
     },
     {
       "headline": "Downing Street insists negotiations over US-UK tech deal still live",
@@ -513,6 +543,15 @@
       "confidence": 0.901
     },
     {
+      "headline": "Sam Altman expects OpenAI to exit 'code red' by January after launch of GPT-5.2 model",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ0tINkctcEJWMllGTkd2T2JxQ0pfeWZxNndfN04tRDRqbk90QmU0d1J0RFNDQzluQkU1Q1dEcVYtQWhoY3E5NUlUWHlMV252a24tYjVSVEE5bmFOZ2d3bFUwV0N4UkZlWFdRTC16NjJRSTFzR1JuV1l5eTgtSk9mRHZ3Z1B5UDNrY0U3SUo2LW5hUUVUaFFSYUlvT3A0WHlvbENxZ0tCYjRBV2JFbEHSAbMBQVVfeXFMTzBBbkMtQzlZRnBzNXcyNjhSNnYxUVRKamNDQVV2YXkzVE5PR2U2T2pDNjVZSldrZUZ6WV9qZlc1Y3dRZnVHbjBCdzBKNUc2MUtrMGRKWW4yYk5aLTQtMVlQb2xTS25aSVVpTXZoMU5JRlNKXzRMcFctSDN6SnpHS1FqcmExOXk5U3lYV3B0M2swaTVzVVkwbl9CcUMzanU0OHRsdTVHZE1XRUpmTGFfV0lVSlU?oc=5",
+      "published": "2025-12-11T08:00:00",
+      "sentiment_score": -0.053,
+      "sentiment_label": "Neutral",
+      "confidence": 0.88
+    },
+    {
       "headline": "Porn company starts new age checks after \u00a31m Ofcom fine",
       "source": "BBC News",
       "link": "https://www.bbc.com/news/articles/c0mpx9yn831o?at_medium=RSS&at_campaign=rss",
@@ -529,6 +568,15 @@
       "sentiment_score": 0.025,
       "sentiment_label": "Neutral",
       "confidence": 0.733
+    },
+    {
+      "headline": "OpenAI loses fight to keep ChatGPT logs secret in copyright case",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSnNIR28zc1F1Zl9ZYkNSMVJjV1Q3NlJJai00ZndJcWZRZEFuM21WWDdpMFNKazNWVVJtTldyd1Z2YlBtby1URG0wMUd4UWNTdnQ1TlU4T1RES1dvUlRBOWpjS0pScHczRUpnek5aSDNLTTM4bmFCSlhpUkFtTlpiU19fYWttZ0wxbzRCWUFzci11UTIxcmZnSzkxLUI5c2JOaFo1RmZsNHU2WFFjNzF1bA?oc=5",
+      "published": "2025-12-03T08:00:00",
+      "sentiment_score": -0.359,
+      "sentiment_label": "Neutral",
+      "confidence": 0.563
     },
     {
       "headline": "Scammers hacked her phone and stole thousands - so how did they get her details?",
